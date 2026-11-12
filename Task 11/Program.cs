@@ -110,7 +110,7 @@
                 new Student("Artem", "Friman", 26, "Oxford"),
                 new Student("Donald", "Tramp", 78, "Oxford") };
 
-            Console.Write("\n1: ");
+            Console.Write("1: ");
             var t3_1 = arr3.Where(n => true);
             foreach (Student i in t3_1) { Console.Write(i.Info() + "; "); }
 
